@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png">
+  <img width="420" height="360" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png">
 </p>
 
 
