@@ -37,5 +37,6 @@ And older articles already pointed at the benefits at least from the simulation 
 
 https://www.researchgate.net/publication/262023914_Epidemic_Contact_Tracing_via_Communication_Traces
 
-**What about other projects**
+**What about other projects?**
+
 If you have an similar project of this is already done you can write to the admin. 
