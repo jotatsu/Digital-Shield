@@ -1,3 +1,5 @@
+![App Logo](https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png)
+
 # Digital Shield
 
 The objective of digital shield is a help to normalize life after the massive quarantines every country is suffering right now. As the virus will be circulating around for an unpredictable ammount of time until a vaccine is developed. Economies must resume their workings but at the same time life and privacy should be respected. 
