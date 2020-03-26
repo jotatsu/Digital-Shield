@@ -21,7 +21,7 @@ Once a case of coronavirus is detected via a test, a "contact trace" is launched
   <img width="655" height="751" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/ContactTrace.png">
 </p>
 
-#F.A.Q
+# F.A.Q
 
 **Is this an scam?
 All the source code and designs are openly available, there is no corporate or goverment backing at the moment. If you want to donate i'll gladly receive and put that money to the project, for now you can do it with github. 
