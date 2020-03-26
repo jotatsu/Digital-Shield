@@ -1,4 +1,7 @@
+<p align="center">
 ![App Logo](https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png)
+</p>
+
 
 # Digital Shield
 
