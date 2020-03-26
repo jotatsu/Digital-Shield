@@ -1,4 +1,4 @@
-![Image of General Model](https://github.com/jotatsu/Digital-Shield/raw/master/Modelio/General%20Communication%20Model.png)
+
 
 This application will help in the process of contact tracing patient in an automated and semi automated way respecting privacy. This aplication uses bluetooth for generating the contact information. 
 This application is made in order to help normalize the current situation with covid-19, but in the future can help with the containment of other diseases.
@@ -20,3 +20,17 @@ The non functional requirements
 - Plataform neutral data in order to adapt to multiple server frameworks. 
 - Easy to customize in order to adapt to different enviromentms 
 - Scalable to millions of users and billions of "contacts" 
+
+This is a basic diagram of the interaction between the different actors
+![Image of General Model](https://github.com/jotatsu/Digital-Shield/raw/master/Modelio/General%20Communication%20Model.png)
+
+Person enrollment:
+![Image of Contact trace request](https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Enrollment.png)
+
+Contact event generation:
+
+![Image of Contact trace request](https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Generate%20Trace.png)
+
+Contact trace request
+
+![Image of Contact trace request](https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Generate%20Contact.png)
