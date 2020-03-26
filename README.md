@@ -1,20 +1,7 @@
-This application will help in the process of contact tracing patient in an automated and semi automated way respecting privacy. This aplication uses bluetooth for generating the contact information. 
-This application is made in order to help normalize the current situation with covid-19, but in the future can help with the containment of other diseases.
+# Digital Shield
 
-The initial version of this application will target the folling actors:
-- Individuals, installing the mobile aplication, self identifying, input basic medic information (not transmitted) ,  and generating the "contact" information. 
-- Goverment agencies trying to control the public health problem and managing citizen data and privacy. 
-- Medical teams identifying cases and generating tracing events. 
-- Researchers working over anonymized data, exploring ways in order to get a more accurate trace data and even predicting cases ahead of time. 
+The objective of digital shield is a help to normalize life after the massive quarantines every country is suffering right now. As the virus will be circulating around for an unpredictable ammount of time until a vaccine is developed. Economies must resume their workings but at the same time life and privacy should be respected. 
 
-The principles of the application 
-- Secure and anonymous. 
-- Adaptable to different privacy and legal frameworks
-- Auditable to avoid bad actors. 
+The way this application works is by generating what is call a "contact" via bluetooth technology. A "contact" indicates 2 persons were physically close for an ammount of time. Those "contacts" are collected in a privacy focus way way in a central server. 
 
-The non functional requirements
-- Low battery consumption on mobile devices
-- High compatibility on the mobile part. 
-- Plataform neutral data in order to adapt to multiple server frameworks. 
-- Easy to customize in order to adapt to different enviromentms 
-- Scalable to millions of users and billions of "contacts" 
+Once a case of coronavirus is detected via a test, a "contact trace" is launched looking back in the past for all the people that this person was in contact with and alerting them. depending on the ammount of time passed, the secundary "contacts" can already be transmitting so a launch will also launch for them and so forth. 
