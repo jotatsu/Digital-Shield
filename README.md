@@ -1,3 +1,5 @@
+![Image of General Model](https://github.com/jotatsu/Digital-Shield/raw/master/Modelio/General%20Communication%20Model.png)
+
 This application will help in the process of contact tracing patient in an automated and semi automated way respecting privacy. This aplication uses bluetooth for generating the contact information. 
 This application is made in order to help normalize the current situation with covid-19, but in the future can help with the containment of other diseases.
 
