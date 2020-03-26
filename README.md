@@ -10,4 +10,10 @@ The objective of digital shield is a help to normalize life after the massive qu
 
 The way this application works is by generating what is call a "contact" via bluetooth technology. A "contact" indicates 2 persons were physically close for an ammount of time. Those "contacts" are collected in a privacy focus way way in a central server. 
 
+<p align="center">
+  <img width="420" height="360" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png">
+</p>
+
+https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Contact.png?raw=true
+
 Once a case of coronavirus is detected via a test, a "contact trace" is launched looking back in the past for all the people that this person was in contact with and alerting them. depending on the ammount of time passed, the secundary "contacts" can already be transmitting so a launch will also launch for them and so forth. 
