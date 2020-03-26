@@ -39,7 +39,7 @@ https://www.researchgate.net/publication/262023914_Epidemic_Contact_Tracing_via_
 
 **What about other projects?**
 
-If you have an similar project of this is already done you can write to the admin. 
+Other existing projects are positive, the objective of this project is to develop something functinal, but at the same time rise awarness that digital technology can help to combat covid-19 in a direct way.  
 
 
 **What is the current stage?**
