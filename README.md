@@ -16,3 +16,8 @@ The way this application works is by generating what is call a "contact" via blu
 
  
 Once a case of coronavirus is detected via a test, a "contact trace" is launched looking back in the past for all the people that this person was in contact with and alerting them. depending on the ammount of time passed, the secundary "contacts" can already be transmitting so a launch will also launch for them and so forth. 
+
+<p align="center">
+  <img width="655" height="751" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/ContactTrace.png">
+</p>
+
