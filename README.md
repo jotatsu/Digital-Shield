@@ -24,16 +24,17 @@ This application is made in order to help normalize the current situation with c
 - Scalable to millions of users and billions of "contacts"
 ## Basic design
 
-** The aproximate user history of the apo: **
+**The aproximate user history of the app:**
 - You enroll to a public service that give you a cripto token, similar to your run of the mill cyrptocoin wallet.
 -  You input your relevant medical information, including if you were already infected and cured, and comorbities (age, weight, smoking habits and other medical related issues). People can lie here, but it just a reference value. This information is not transmitted to anywhere other than the phone.
 -  Use bluetooth, without pairing you can sense the proximity nerby beacons to determine who is close to you. A reverse flight mode should be implemented, meaning bluetooth radios must be on. I don’t think pairing is necessary, we can intervene earlier in the protocol
 -  Every time you “contact” a bluetooth signal, an event is generated with the proximate time and strengh. A combined hash is generated with your bluetooth mac or BD_ADDR. The event hash is send to a server with your token, the other person will send a similar hash in a way both can be linked but not traced at the moment
 -  If you get cornavirus, medical team generates a certificate to “open” your trace contact history, The server version contact trace the events to the particular day of the supposed infect and alerts the users via the “wallet”.
-Once you get cured, medical team puts another token on your wallet, suspecting you cannot get reinfected or pass it to other people.
+-  Once you get cured, medical team puts another token on your wallet, suspecting you cannot get reinfected or pass it to other people.
 
 
-This is a basic diagram of the interaction between the different actors
+**Basic diagrams**
+Inteaction between the different subsystems. 
 ![Image of General Model](https://github.com/jotatsu/Digital-Shield/raw/master/Modelio/General%20Communication%20Model.png)
 
 Person enrollment:
