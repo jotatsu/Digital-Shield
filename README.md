@@ -1,5 +1,6 @@
+
 <p align="center">
-![App Logo](https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png)
+  <img width="460" height="300" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/Logo.png">
 </p>
 
 
