@@ -6,7 +6,7 @@
 
 # Digital Shield
 
-The objective of digital shield is a help to normalize life after the massive quarantines every country is suffering right now. As the virus will be circulating around for an unpredictable ammount of time until a vaccine is developed. Economies must resume their workings but at the same time life and privacy should be respected. 
+The objective of digital shield is a help to normalize life after the massive quarantines every country is suffering right now. As the virus will be circulating around for an unpredictable ammount of time until a vaccine is developed. Economies must resume their workings but at the same time life and privacy should be respected.  This application is not a "solve all" solution, it should be used with medical, pulic policy and other techonological tools. 
 
 The way this application works is by generating what is call a "contact" via bluetooth technology. A "contact" indicates 2 persons were physically close for an ammount of time. Those "contacts" are collected in a privacy focus way way in a central server. 
 
