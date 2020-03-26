@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mobile APP" version="4">
+  <OBJECT>
+    <ID name="Mobile APP" mc="Standard.Package" uid="0b7552be-fd02-47d4-a883-4894b9dd6aa7"/>
+    <PID name="digitalshield" mc="Standard.Package" uid="2c74bf70-8d79-4061-9125-0be7fb9c46ca"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Mobile APP]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Enrollment" mc="Standard.Activity" uid="40b0b05d-5866-4458-8d70-d6aedbe0c852"/>
+        <COMPID name="Generate Contact" mc="Standard.Activity" uid="115bd0b1-1c76-4ecd-90e1-0e690137b323"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

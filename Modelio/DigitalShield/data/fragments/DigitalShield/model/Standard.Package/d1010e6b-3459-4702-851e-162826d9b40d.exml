@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HealthCare APP" version="4">
+  <OBJECT>
+    <ID name="HealthCare APP" mc="Standard.Package" uid="d1010e6b-3459-4702-851e-162826d9b40d"/>
+    <PID name="digitalshield" mc="Standard.Package" uid="2c74bf70-8d79-4061-9125-0be7fb9c46ca"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[HealthCare APP]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Generate Trace" mc="Standard.Activity" uid="a6c55951-ea55-45f8-a7fd-86150fd600e6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

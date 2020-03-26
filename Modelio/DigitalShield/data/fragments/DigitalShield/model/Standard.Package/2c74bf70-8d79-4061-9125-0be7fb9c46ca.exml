@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="digitalshield" version="4">
+  <OBJECT>
+    <ID name="digitalshield" mc="Standard.Package" uid="2c74bf70-8d79-4061-9125-0be7fb9c46ca"/>
+    <PID name="DigitalShield" mc="Standard.Project" uid="ba734daf-dc8f-47f6-bdbe-5b0873d222f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[digitalshield]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="General Communication Schema" mc="Standard.CommunicationInteraction" uid="4bf70347-1640-4222-8348-2e9321b42379"/>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="Submit Traces" mc="Standard.InformationFlow" uid="dff425cc-8c10-4cdf-a058-fdc4fd8c3eb7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Submit Traces]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="Mobile APP" mc="Standard.CommunicationNode" uid="77bb75b8-6756-443e-9bf6-76422a53bae2"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="General Track Server" mc="Standard.CommunicationNode" uid="5d0a05db-a289-4688-81f8-48df61f11846"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Request Trace" mc="Standard.InformationFlow" uid="a1a9dab2-ba83-4c68-b5b0-6202b0d9dfb4"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Request Trace]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="HealthTraces" mc="Standard.CommunicationNode" uid="3549b048-06bc-4954-8533-560c27ed671c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="General Track Server" mc="Standard.CommunicationNode" uid="5d0a05db-a289-4688-81f8-48df61f11846"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Dump Anonizmied Data" mc="Standard.InformationFlow" uid="6a15e59c-a5bb-417e-9d01-12cdd610762a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Dump Anonizmied Data]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="General Track Server" mc="Standard.CommunicationNode" uid="5d0a05db-a289-4688-81f8-48df61f11846"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Research Node" mc="Standard.CommunicationNode" uid="fdf2390c-06e7-46c0-8ad8-90ec164f1185"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Dump Cases" mc="Standard.InformationFlow" uid="781b629f-0e7b-4d1b-8ec7-732c3d69a689"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Dump Cases]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="General Track Server" mc="Standard.CommunicationNode" uid="5d0a05db-a289-4688-81f8-48df61f11846"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Gov Command Center" mc="Standard.CommunicationNode" uid="37137dca-5b3e-4924-939e-129ff3530b51"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Request trace  personal information" mc="Standard.InformationFlow" uid="c521dc57-c225-4001-afef-e8f8e524dfff"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Request trace  personal information]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="HealthTraces" mc="Standard.CommunicationNode" uid="3549b048-06bc-4954-8533-560c27ed671c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Gov Command Center" mc="Standard.CommunicationNode" uid="37137dca-5b3e-4924-939e-129ff3530b51"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Mobile APP" mc="Standard.Package" uid="0b7552be-fd02-47d4-a883-4894b9dd6aa7"/>
+        <COMPID name="HealthCare APP" mc="Standard.Package" uid="d1010e6b-3459-4702-851e-162826d9b40d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DigitalShield" version="4">
+  <OBJECT>
+    <ID name="DigitalShield" mc="Infrastructure.DiagramSet" uid="655ea855-9212-40f6-836f-56188d1281b0"/>
+    <PID name="DigitalShield" mc="Standard.Project" uid="ba734daf-dc8f-47f6-bdbe-5b0873d222f4"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[DigitalShield]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
