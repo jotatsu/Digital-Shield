@@ -40,3 +40,9 @@ https://www.researchgate.net/publication/262023914_Epidemic_Contact_Tracing_via_
 **What about other projects?**
 
 If you have an similar project of this is already done you can write to the admin. 
+
+
+**What is the current stage?**
+
+Design and prototyping, you can see the designs in the [Wiki](https://github.com/jotatsu/Digital-Shield/wiki)  
+
