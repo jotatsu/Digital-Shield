@@ -21,3 +21,18 @@ Once a case of coronavirus is detected via a test, a "contact trace" is launched
   <img width="655" height="751" src="https://github.com/jotatsu/Digital-Shield/blob/master/Modelio/ContactTrace.png">
 </p>
 
+#F.A.Q
+
+**Is this an scam?
+All the source code and designs are openly available, there is no corporate or goverment backing at the moment. If you want to donate i'll gladly receive and put that money to the project, for now you can do it with github. 
+
+**Is there any evidence this works?
+Singapore is developing something similar 
+https://www.straitstimes.com/tech/singapore-app-allows-for-faster-contact-tracing
+
+Oxford developed a study and recommends this type of approach
+http://www.ox.ac.uk/news/2020-03-17-infectious-disease-experts-provide-evidence-coronavirus-mobile-app-instant-contact
+
+And older articles already pointed at the benefits at least from the simulation side
+
+https://www.researchgate.net/publication/262023914_Epidemic_Contact_Tracing_via_Communication_Traces
